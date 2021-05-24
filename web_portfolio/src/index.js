@@ -10,6 +10,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Skills />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
