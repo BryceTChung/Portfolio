@@ -1,0 +1,38 @@
+#container{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	font-family: monospace;
+	/* background-color: chartreuse; */
+}
+
+#lang{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+	flex: 1;
+	/* background-color: red; */
+	border-style: ridge;
+	margin: 5px;
+	border-color: grey;
+}
+.title{
+	display: flex;
+	justify-content: center;
+	font-weight: 700;
+}
+.list{
+	display: flex;
+	justify-content: center;
+}
+
+#other{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	/* background-color: blue; */
+	border-style: ridge;
+	margin: 5px;
+	border-color: grey;
+}
