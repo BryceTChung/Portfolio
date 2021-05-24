@@ -1,0 +1,15 @@
+#posts{
+	color:red;
+}
+
+.post{
+	color:blue;
+	display:flex;
+	padding-top: 10px;
+}
+
+#dog_img{
+	width:100px;
+	height:100px;
+	padding-right: 10px;
+}
