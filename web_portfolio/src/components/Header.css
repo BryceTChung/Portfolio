@@ -1,0 +1,31 @@
+.container{
+    background-color: tan;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.header{
+    flex-direction:column;
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+.subheading{
+    display:flex;
+    justify-content: center;
+    font-size: 75%;
+    opacity: 0.65;
+}
+.sovaoutside{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#sova{
+    max-height: auto;
+    max-width: 200px;
+
+}
