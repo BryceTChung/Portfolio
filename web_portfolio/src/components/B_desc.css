@@ -1,0 +1,12 @@
+#desc_container{
+	/* background-color: crimson; */
+	display: flex;
+	justify-content: center;
+	font-family:monospace;
+}
+#quote{
+	/* background-color: gray; */
+	width: 80%;
+	font-size: 18px;
+	line-height: 1.5;
+}

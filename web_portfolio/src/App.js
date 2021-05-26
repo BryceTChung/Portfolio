@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from './components/Header';
+import B_Header from './components/B_Header';
 import Skills from './components/Skills';
+import B_desc from './components/B_desc';
 
 
 
@@ -13,8 +15,10 @@ function App() {
 
 	return (
 		<>
-		<Header/>
+		<B_Header/>
+		<B_desc/>
 		<Skills languages = {languages} technologies ={technologies}/>
+		
 		</>
 	)
 }
