@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './App.css';
 import Header from './components/Header';
 import B_Header from './components/B_Header';
 import Skills from './components/Skills';
