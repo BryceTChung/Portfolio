@@ -2,10 +2,6 @@ import React from 'react'
 import './Header.css'
 const Header = () => {
 	return (
-<<<<<<< HEAD
-		<div>
-			<h1>Test</h1>
-=======
 		<div class ="container">
 			<div class="header">
 			<h1>FirstName LastName</h1>
@@ -19,7 +15,6 @@ const Header = () => {
 			
 			
 			
->>>>>>> ee008fef2dabea5e16cbec4a22c483833e24aa1f
 		</div>
 	)
 }
