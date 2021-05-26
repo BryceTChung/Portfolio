@@ -1,21 +1,20 @@
 import React from 'react'
 import './Skills.css'
 
-function Skills() {
+
+function Skills(props) {
+	
 	return (
 		<div id="container">
 			<div id="lang">
 				<div class="title">Languages</div>
-				<div class="list">-Python</div>
-				<div class="list">-JavaScript</div>
-				<div class="list">-Node.js</div>
-				<div class="list">-C++</div>
+				{props.languages.map((item)=> <div className="list">{item} </div>)}
+				
+				
 			</div>
 			<div id="other">
-				<div class="title">Other</div>
-				<div class="list">-HTML</div>
-				<div class="list">-CSS</div>
-				<div class="list">-React</div>
+				<div className="title">Other</div>
+				{props.technologies.map((item)=> <div className="list">{item} </div>)}
 			</div>
 		</div>
 	)
