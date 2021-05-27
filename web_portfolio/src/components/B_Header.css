@@ -40,8 +40,8 @@
 	animation-duration: 2s;
 }
 @keyframes fly_down {
-	0%{top: -200px;}
-	100%{top:0px}
+	0%{transform: translateY(-200px);}
+	100%{transform:translateY(0px)}
 }
 
 #chung{
@@ -50,8 +50,8 @@
 	animation-duration: 2s;
 }
 @keyframes fly_right {
-	0%{left:-200px}
-	100%{left:0px}
+	0%{transform: translateX(-200px)}
+	100%{transform: translateX(0px)}
 }
 
 .row{

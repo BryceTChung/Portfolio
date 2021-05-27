@@ -9,6 +9,9 @@
 	padding-top: 3vh;
 	padding-bottom:3vh;
 	cursor: default;
+	animation-name: fade;
+	animation-duration: 3s;
+	animation-timing-function: linear;
 
 }
 #quote{
@@ -23,12 +26,10 @@
 	transition-property: color;
 	transition-duration: .5s;
 	transition-timing-function: linear;
-	animation-name: fade;
-	animation-duration: 3s;
-	animation-timing-function: linear;
+
 }
 @keyframes fade {
-	0%{opacity: 0%;}
+	0%{opacity: 1%;}
 	100%{opacity: 100%;}
 }
 #quote:hover{
