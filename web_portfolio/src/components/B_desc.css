@@ -10,6 +10,7 @@
 	padding-bottom:3vh;
 	cursor: default;
 	animation-name: fade;
+	-webkit-animation-name: fade;
 	animation-duration: 3s;
 	animation-timing-function: linear;
 
@@ -39,8 +40,6 @@
 #quote:hover{
 	color:yellow;
 }
-
-
 
 @media screen and (max-width:397px){
 	#quote{
