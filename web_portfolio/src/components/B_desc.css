@@ -32,9 +32,15 @@
 	0%{opacity: 1%;}
 	100%{opacity: 100%;}
 }
+@-webkit-keyframes fade {
+	0%{opacity: 1%;}
+	100%{opacity: 100%;}
+}
 #quote:hover{
 	color:yellow;
 }
+
+
 
 @media screen and (max-width:397px){
 	#quote{
