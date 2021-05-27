@@ -10,7 +10,8 @@
 	padding-bottom:3vh;
 	cursor: default;
 	animation-name: fade;
-	-webkit-animation-name: fade;
+	/* -webkit-animation-name: fade; */
+	/* -webkit-animation-duration: 3s; */
 	animation-duration: 3s;
 	animation-timing-function: linear;
 
@@ -29,14 +30,15 @@
 	transition-timing-function: linear;
 
 }
+/* @-webkit-keyframes fade {
+	0%{opacity: .01;}
+	100%{opacity: 1;}
+} */
 @keyframes fade {
-	0%{opacity: 1%;}
-	100%{opacity: 100%;}
+	0%{opacity: .01;}
+	100%{opacity: 1;}
 }
-@-webkit-keyframes fade {
-	0%{opacity: 1%;}
-	100%{opacity: 100%;}
-}
+
 #quote:hover{
 	color:yellow;
 }
