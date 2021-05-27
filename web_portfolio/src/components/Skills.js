@@ -10,7 +10,6 @@ function Skills(props) {
 				<div class="title">Languages</div>
 				{props.languages.map((item)=> <div className="list">{item} </div>)}
 				
-				
 			</div>
 			<div id="other">
 				<div className="title">Other</div>

@@ -4,14 +4,41 @@
 	display: flex;
 	justify-content: center;
 	font-family:monospace;
-	height: 40vh;
+	/* height: 40vh; */
 	color: cornflowerblue;
+	padding-top: 3vh;
+	padding-bottom:3vh;
+	cursor: default;
+
 }
 #quote{
 	/* background-color: gray; */
 	display: flex;
 	width: 80%;
-	font-size: 18px;
+	word-wrap: normal;
+	height: fit-content;
+	font-size: 1.5vw;
 	line-height: 1.5;
-	margin-top: 8vh;
+	/* margin-top: 8vh; */
+	transition-property: color;
+	transition-duration: .5s;
+	transition-timing-function: linear;
+	animation-name: fade;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+}
+@keyframes fade {
+	0%{opacity: 0%;}
+	100%{opacity: 100%;}
+}
+#quote:hover{
+	color:yellow;
+}
+
+@media screen and (max-width:397px){
+	#quote{
+		font-size: 12px;
+		/* margin-top: 10px; */
+	}
+	
 }

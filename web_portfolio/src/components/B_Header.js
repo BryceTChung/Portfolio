@@ -7,14 +7,14 @@ function B_Header() {
 		<div id="h_container">
 			<div id="left">
 				<table className="name">
-					<tr className="row">
+					<tr className="row" id="bryce">
 						<th>B</th>
 						<th>R</th>
 						<th>Y</th>
 						<th>C</th>
 						<th>E</th>
 					</tr>
-					<tr className="row">
+					<tr className="row" id="chung">
 						<th>C</th>
 						<th>H</th>
 						<th>U</th>

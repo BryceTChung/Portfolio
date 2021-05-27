@@ -5,7 +5,11 @@
 	justify-content: center;
 	flex-wrap: wrap;
 	color: cornflowerblue;
-	height: 60vh;
+	padding-top: 3vh;
+	padding-bottom:3vh;
+	cursor: default;
+
+	/* height: 60vh; */
 }
 
 /* @media screen and (min-width: 1400px){
@@ -30,6 +34,25 @@
 	/* height: 100%; */
 	
 }
+#bryce{
+	position:relative ;
+	animation-name: fly_down;
+	animation-duration: 2s;
+}
+@keyframes fly_down {
+	0%{top: -200px;}
+	100%{top:0px}
+}
+
+#chung{
+	position: relative;
+	animation-name: fly_right;
+	animation-duration: 2s;
+}
+@keyframes fly_right {
+	0%{left:-200px}
+	100%{left:0px}
+}
 
 .row{
 	display: flex;
@@ -39,7 +62,12 @@
 }
 th{
 	width: 20%;
-	
+	transition-property: color;
+	transition-duration: .5s;
+	transition-timing-function: linear;
+}
+th:hover{
+	color:yellow;
 }
 #left{
 	/* background-color: brown; */
@@ -71,7 +99,14 @@ th{
 	align-self: center;
 	width:100%;
 	border-radius: 5%;
+	position: relative;
+	animation-name: fly_left;
+	animation-duration: 2s;
 	/* min-width: 120px; */
+}
+@keyframes fly_left {
+	0%{right:-200px}
+	100%{right:0px}
 }
 #img_wrapper{
 	/* background-color: darkorchid; */
@@ -79,6 +114,8 @@ th{
 	justify-content: center;
 	align-items: center;
 	align-self: center;
+	position: relative;
+	
 }
 
 @media screen and (max-width:397px){
@@ -87,7 +124,7 @@ th{
 	}
 	#h_container{
 		flex-direction: column;
-		height: 40vh;
+		/* height: 40vh; */
 		/* justify-content: space-evenly; */
 		align-items: center;
 	}

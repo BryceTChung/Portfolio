@@ -1,0 +1,54 @@
+#edu_container{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
+	color: cornflowerblue;
+	padding-top: 3vh;
+	padding-bottom:3vh;
+	animation-name: fade;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	cursor: default;
+}
+#ucd{
+	display: flex;
+	width: fit-content;
+	position: relative;
+	right: 21%;
+	font-size: 3vw;
+	padding:.3vh;
+	transition-property: color;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+#ucd:hover{
+	color:yellow;
+}
+#major{
+	display: flex;
+	width: fit-content;
+	position: relative;
+	right: 26%;
+	font-size: 1.5vw;
+	padding:.3vh;
+	transition-property: color;
+	transition-duration: 1s;
+
+}
+#major:hover{
+	color:yellow;
+}
+#gpa{
+	display: flex;
+	width: fit-content;
+	position: relative;
+	right: 38%;
+	font-size: 1.2vw;
+	padding:.3vh;
+	transition-property: color;
+	transition-duration: 1s;
+}
+#gpa:hover{
+	color:yellow;
+}

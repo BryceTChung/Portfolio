@@ -4,7 +4,7 @@ import Header from './components/Header';
 import B_Header from './components/B_Header';
 import Skills from './components/Skills';
 import B_desc from './components/B_desc';
-
+import B_education from "./components/B_education";
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
 		<>
 		<B_Header/>
 		<B_desc/>
+		<B_education/>
 		<Skills languages = {languages} technologies ={technologies}/>
 		
 		</>
