@@ -29,6 +29,9 @@
 
 	padding: 10px;
 	margin: 20px;
+	animation-name: fly_right;
+	animation-duration: 2s;
+	
 }
 .title{
 	display: flex;
@@ -72,6 +75,8 @@
 	border-color: rgba(44, 103, 212,20%);
 	padding: 10px;
 	margin: 20px;
+	animation-name: fly_left;
+	animation-duration: 2s;
 }
 @media screen and (max-width:397px){
 	#container{

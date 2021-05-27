@@ -54,6 +54,11 @@
 	100%{transform: translateX(0px)}
 }
 
+@keyframes fly_left {
+	0%{transform: translateX(200px)}
+	100%{transform: translateX(0px)}
+}
+
 .row{
 	display: flex;
 	justify-content: space-evenly;
@@ -104,10 +109,10 @@ th:hover{
 	animation-duration: 2s;
 	/* min-width: 120px; */
 }
-@keyframes fly_left {
+/* @keyframes fly_left {
 	0%{right:-200px}
 	100%{right:0px}
-}
+} */
 #img_wrapper{
 	/* background-color: darkorchid; */
 	display: flex;
