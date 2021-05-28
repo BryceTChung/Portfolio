@@ -4,3 +4,23 @@
 	border: 0px;
 	background-color: rgb(1, 9, 20);
 }
+
+.header{
+	display: flex;
+	/* background: coral; */
+	font-size: 8vw;
+	justify-content: center;
+	color: cornflowerblue;
+	padding: 3vh;
+	
+	
+}
+.text{
+	transition: color;
+	transition-timing-function: linear;
+	transition-duration: .5s;
+}
+.text:hover{
+	color:yellow;
+	cursor: default;
+}

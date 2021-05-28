@@ -43,16 +43,19 @@
 .list{
 	display: flex;
 	justify-content: center;
-	width: min-content;
+	/* width: min-content; */
 	/* background-color: rgb(1, 9, 20); */
 	background: rgb(1, 9, 20);
 	padding: 5px;
 	margin: 3px;
+	/* Stops weird background ghosting */
+	transform: translateZ(0);
 	transition-property: background-color,border-radius;
 	transition-duration: 1s,.2s;
 }
 .list:hover{
-	-webkit-text-stroke: 2px rgb(17, 35, 70);
+	-webkit-text-stroke: 1px rgb(17, 35, 70);
+	background-size: 80%;
 	background: rgba(255,255,0,50%);
 	border-radius: 30%;
 	cursor: pointer;

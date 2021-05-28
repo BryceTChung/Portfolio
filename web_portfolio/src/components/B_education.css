@@ -11,13 +11,21 @@
 	animation-timing-function: linear;
 	cursor: default;
 }
+#edu_wrapper{
+	/* background: coral; */
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 80%;
+}
 #ucd{
 	display: flex;
 	width: fit-content;
 	position: relative;
-	right: 21%;
+	/* right: 21%; */
 	font-size: 3vw;
-	padding:.3vh;
+	padding-top:.3vh;
+	transform: translateX(-2px);
 	transition-property: color;
 	transition-duration: 1s;
 	transition-timing-function: linear;
@@ -29,9 +37,9 @@
 	display: flex;
 	width: fit-content;
 	position: relative;
-	right: 26%;
+	/* right: 26%; */
 	font-size: 1.5vw;
-	padding:.3vh;
+	padding-top:.3vh;
 	transition-property: color;
 	transition-duration: 1s;
 
@@ -43,9 +51,9 @@
 	display: flex;
 	width: fit-content;
 	position: relative;
-	right: 38%;
+	/* right: 38%; */
 	font-size: 1.2vw;
-	padding:.3vh;
+	padding-top:.3vh;
 	transition-property: color;
 	transition-duration: 1s;
 }
