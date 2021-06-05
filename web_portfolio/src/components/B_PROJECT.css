@@ -10,24 +10,32 @@
 .proj_img{
 	/* background: chocolate; */
 	display: flex;
-	flex: 1;
+	justify-content: center;
+	position: relative;
+	/* Added so that arrows can be position absolute */
+	/* flex: 1; */
 	padding: 2vw;
+	width: 50%;
+	height: 60vw;
+	/* max-height: 60vh; */
 }
 .img{
 	max-width: 100%;
+	max-height: 100%;
 }
 
 .proj_text{
 	/* background: cornsilk; */
 	display:flex;
 	flex-direction: column;
-	flex:1;
+	/* flex:1; */
+	width: 50%;
 	padding: 2vw;
 	color: cornflowerblue;
 }
 .proj_text_about{
 	display: flex;
-	padding-bottom: 2vh;
+	padding-bottom: 2vw;
 	font-size: 1.7vw;
 	line-height: 1.5;
 }
@@ -38,5 +46,47 @@
 }
 .tech_item{
 	display: flex;
-	padding-top: 1vh;
+	width: min-content;
+	/* background: tomato; */
+	padding-top: 1vw;
+	transition-property: color;
+	transition-duration: .5s;
+	transition-timing-function: linear;
+}
+.tech_item:hover{
+	color:yellow;
+}
+
+.left_img{
+	display:flex;
+	background: black;
+	color: cornflowerblue;
+	font-size: 1.7vw;
+	position: absolute;
+	left: 35%;
+	top: 85%;
+}
+
+.right_img{
+	display:flex;
+	background: black;
+	color: cornflowerblue;
+	font-size: 1.7vw;
+	position: absolute;
+	right: 35%;
+	top: 85%;
+}
+
+@media screen and (max-width:397px){
+	.proj_container{
+		flex-direction: column;
+		align-items: center;
+	}
+	.proj_img{
+		height: 80vw;
+		width: 80%;
+	}
+	.proj_text{
+		width: 100%;
+	}
 }

@@ -7,7 +7,7 @@ function Skills(props) {
 	return (
 		<div id="container">
 			<div id="lang">
-				<div class="title">Languages</div>
+				<div className="title">Languages</div>
 				{props.languages.map((item)=> <div className="list">{item} </div>)}
 				
 			</div>
